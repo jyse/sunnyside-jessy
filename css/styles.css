@@ -1,0 +1,223 @@
+/*---------------------------------------------------------------
+ Global styles
+----------------------------------------------------------------*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* 
+-------------------------------------------------------------------------------
+HTML elements 
+-------------------------------------------------------------------------------
+*/
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.header {
+  width: 1440px;
+  height: 800px;
+}
+
+.logo {
+  height: 33px;
+  width: 170px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+  margin-top: -780px;
+}
+
+.nav {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-family: Barlow;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: -0.12857143580913544px;
+  text-align: left;
+}
+
+.nav p:nth-child(4) {
+  width: 140px;
+  height: 56px;
+  background-color: white;
+  border-radius: 50px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Fraunces", serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: -0.1071428582072258px;
+  text-align: left;
+}
+
+.nav:hover p:nth-child(4) {
+  background-color: pink;
+}
+
+.text {
+  margin-top: 195px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.text h1 {
+  font-family: "Fraunces", serif;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 69px;
+  letter-spacing: 8.75px;
+  text-align: center;
+}
+
+.text img {
+  margin-top: 45px;
+  width: 30px;
+  height: 100px;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+}
+
+.container {
+  width: 720px;
+  height: 600px;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.textBox {
+  width: 445px;
+  height: 285px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.textBox h1 {
+  font-family: "Fraunces", serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 49px;
+  letter-spacing: -0.2857142984867096px;
+  text-align: left;
+  color: #24303e;
+}
+
+.textBox p {
+  font-family: Barlow;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: -0.12857143580913544px;
+  text-align: left;
+  color: #808397;
+}
+
+.textBox img {
+  width: 120px;
+  height: 25px;
+}
+
+.testimonials {
+  height: 797px;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.testimonials h1 {
+  font-family: "Fraunces", serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 25px;
+  letter-spacing: 5px;
+  text-align: center;
+  color: #a7aaad;
+}
+
+.clients {
+  width: 80%;
+  display: flex;
+  margin-top: 40px;
+}
+
+.client {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 400px;
+  align-items: center;
+  padding: 20px;
+  border-radius: 50px;
+}
+
+.client img {
+  width: 72px;
+  height: 72px;
+}
+
+.client p {
+  font-family: Barlow;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.12857143580913544px;
+  text-align: center;
+  color: #5b636d;
+}
+
+.details h2 {
+  font-family: "Fraunces", serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.details h4 {
+  font-family: Barlow;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: center;
+  color: #a7aaad;
+}
